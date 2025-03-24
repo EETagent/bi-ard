@@ -20,6 +20,10 @@ ag-lcd = { version = "0.3.0", features = ["avr-hal", "i2c", "ufmt"] }
 port-expander = "0.6.4"
 heapless = { version = "0.8.0", features = ["ufmt"] }
 
+[dependencies.avr-device]
+version = "0.7.0"
+features = ["atmega328p"]
+
 [dependencies.arduino-hal]
 git = "https://github.com/rahix/avr-hal"
 rev = "3c089795cadbbc7fa83f45958128689fee7ba1e4"

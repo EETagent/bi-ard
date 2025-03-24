@@ -106,6 +106,7 @@ version = "0.1.0"
 dependencies = [
  "ag-lcd",
  "arduino-hal",
+ "avr-device",
  "embedded-dht-rs",
  "embedded-hal 1.0.0",
  "heapless",
